@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.listen(3000);
-const API_KEY = 'AIzaSyAXPLnnVA_zdEeCEbNOfXoqGs6zvXjj3Oo';
+const API_KEY = 'your api key';
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 
